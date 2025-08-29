@@ -187,8 +187,9 @@ Reference files and weekly chart imports were organized to support:
 ---
 
 **Project Status**: Active Development  
-**Last Updated**: August 18, 2025  
+**Last Updated**: August 29, 2025  
 **Data Coverage**: Billboard Hot 100 (Weekly)  
 **Technology Stack**: SQLite, Python, Power BI, DAX  
 
 *This project demonstrates how modern data analytics tools can transform traditional music industry data into actionable insights and interactive visualizations.*
+
