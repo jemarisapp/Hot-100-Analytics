@@ -118,7 +118,7 @@ Reference files and weekly chart imports were organized to support:
 - The system will upsert based on week and rank combinations
 
 ### Viewing Analytics
-- Open `Hot100 Dashboard.pbix` in Power BI
+- Open `.pbix` in Power BI
 - Use filters to select specific weeks, artists, or songs
 - Explore different metric views and rankings
 
@@ -192,4 +192,5 @@ Reference files and weekly chart imports were organized to support:
 **Technology Stack**: SQLite, Python, Power BI, DAX  
 
 *This project demonstrates how modern data analytics tools can transform traditional music industry data into actionable insights and interactive visualizations.*
+
 
