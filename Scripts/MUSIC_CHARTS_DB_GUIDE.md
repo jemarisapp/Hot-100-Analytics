@@ -4,11 +4,7 @@ This folder holds a small SQLite database (`charts.db`) and a loader script (`qu
 
 ### 1) Open the folder in PowerShell
 ```powershell
-cd "C:\Users\Trill\Documents\Personal\BillboardHot100"
-```
-
-```
-cd "C:\Users\Trill\Documents\Personal\BillboardHot100"
+cd ".\folder"
 python .\quick_db_loader.py --db .\charts.db --week 2025-08-16 --chart "Week of August 16th" --csv .\weekly_charts\add_2025-08-16.csv --mode replace
 ```
 
@@ -61,5 +57,6 @@ python -c "import sqlite3; c=sqlite3.connect('charts.db').cursor(); wid=c.execut
 ### 7) Common issues
 - If a command errors with `>>>` visible, you are inside a Python REPL. Type `exit()` and run again.
 - If a CSV is empty or has a different header, nothing will load; ensure the header matches exactly.
+
 
 
